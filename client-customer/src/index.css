@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-90{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-80{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-70{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-liner{
+  background: linear-gradient(rgb(55, 4, 93), rgb(137, 8, 91)) 0% 0% / cover;
+}
+
+.border-liner{
+  border: 1px solid linear-gradient(rgb(55, 4, 93), rgb(137, 8, 91)) 0% 0% / cover;
+}
+
+.ant-card-body{
+  padding-top: 0 !important;
+}

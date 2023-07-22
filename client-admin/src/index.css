@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-md{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-60{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-70{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-xl{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+
+.active{
+    background-color: #f18634;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.nav-bar li:hover{
+    transition: all .5s;
+}
+
+.nav-bar li:hover{
+    background-color: #f18634;
+    border-radius: 8px;
+    color: white;
+}
+
+.font-lilita{
+    font-family: 'Lilita One', cursive;
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
